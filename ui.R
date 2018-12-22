@@ -32,7 +32,7 @@ shinyUI(fluidPage(
   # Inputs in sidepanel:
   sidebarPanel(
     
-    fileInput("file1", "Upload text file"),
+    fileInput("file1", "Upload text file (UTF-8)"),
     
     fileInput("file2", "Upload UDPipe model"),
     
